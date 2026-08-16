@@ -4,12 +4,12 @@ cask "stunt" do
 
   on_macos do
     on_intel do
-      sha256 "0ef26835e92a51c12426f1d9908d79f916604f9648fc3aaf16a509613633484d"
+      sha256 "bd2a98a0ad3a8be1b20b44cba1d8e20bcf8e95624e454faf3ca151e0ae45f955"
       url "https://github.com/stuntapi/stunt/releases/download/v#{version}/stunt_#{version}_Darwin_amd64.tar.gz",
         verified: "github.com/stuntapi/stunt"
     end
     on_arm do
-      sha256 "10ff658dfd3b6ada5c8aadadb3024a7ec79bcb014e1dcf1c590bd473a3ebb46d"
+      sha256 "42f21e5eace04b5a89cb35e5c2768336b6528480e898ae962a4c1f2916b40969"
       url "https://github.com/stuntapi/stunt/releases/download/v#{version}/stunt_#{version}_Darwin_arm64.tar.gz",
         verified: "github.com/stuntapi/stunt"
     end
@@ -17,12 +17,12 @@ cask "stunt" do
 
   on_linux do
     on_intel do
-      sha256 "79d50fc492d9248d48c516210f5b40e05e6d7af79f22f2d18a459ec1db41c443"
+      sha256 "ed8b356630e72a4e8df69517388daaf98be2722a5828261fa47a9a428eb865c4"
       url "https://github.com/stuntapi/stunt/releases/download/v#{version}/stunt_#{version}_Linux_amd64.tar.gz",
         verified: "github.com/stuntapi/stunt"
     end
     on_arm do
-      sha256 "acb592706ff8832cbfd547e6a4a21f00cad68cda4ee526d517b3e9e800f83be4"
+      sha256 "03d4c8ffc27bb29c6c089cc98794ea447f5821601a246e4dfb679b49af155072"
       url "https://github.com/stuntapi/stunt/releases/download/v#{version}/stunt_#{version}_Linux_arm64.tar.gz",
         verified: "github.com/stuntapi/stunt"
     end
